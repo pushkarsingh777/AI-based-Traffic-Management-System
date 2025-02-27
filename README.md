@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>YOLO Vehicle Detection</title>
+   <title>YOLO Vehicle Detection</title>
 </head>
 <body>
     <h1>YOLO Vehicle Detection</h1>
