@@ -1,6 +1,4 @@
-ultralytics
 opencv-python
-numpy
-flask
+torch
+ultralytics
 pyserial
-requests
