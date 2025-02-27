@@ -1,47 +1,37 @@
-# Traffic-Management-System
-
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YOLO Vehicle Detection</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background-color: #f4f4f4; }
-        h1, h2 { color: #333; }
-        pre { background: #ddd; padding: 10px; border-radius: 5px; }
-    </style>
 </head>
 <body>
     <h1>YOLO Vehicle Detection</h1>
-    <p>This project uses YOLO (You Only Look Once) for real-time vehicle detection and calculates adaptive green signal timing based on traffic density.</p>
+    <p>This project uses YOLO (You Only Look Once) for vehicle detection in images and videos, integrated with an Arduino-based traffic signal system.</p>
     
 <h2>Features</h2>
     <ul>
-        <li>Detects vehicles from images and video feeds</li>
-        <li>Calculates adaptive green light timing</li>
-        <li>Communicates with an Arduino to adjust traffic signals</li>
+        <li>Detects vehicles in images and videos</li>
+        <li>Calculates green signal time based on vehicle count</li>
+        <li>Communicates with an Arduino for traffic signal control</li>
+        <li>Uses YOLOv8 for object detection</li>
     </ul>
     
 <h2>Installation</h2>
-    <p>Ensure you have Python installed, then install dependencies:</p>
-    <pre>pip install -r requirements.txt</pre>
+    <p>To install dependencies, run:</p>
+    <pre><code>pip install -r requirements.txt</code></pre>
     
 <h2>Usage</h2>
-    <p>Run the script with an image or video file:</p>
-    <pre>python main.py</pre>
+    <p>To run the program:</p>
+    <pre><code>python yolo_vehicle_detection.py</code></pre>
     
 <h2>Requirements</h2>
-    <p>Make sure you have the following installed:</p>
-    <pre>
-        Python 3.x
-        OpenCV
-        PyTorch
-        Ultralytics YOLO
-        PySerial
-    </pre>
+    <ul>
+        <li>Python 3.7+</li>
+        <li>OpenCV</li>
+        <li>PyTorch</li>
+        <li>Ultralytics YOLO</li>
+        <li>PySerial (for Arduino communication)</li>
+    </ul>
     
-    <h2>License</h2>
-    <p>MIT License</p>
+<h2>License</h2>
+    <p>This project is licensed under the MIT License.</p>
 </body>
 </html>
