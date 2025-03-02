@@ -78,7 +78,7 @@
       The <strong>Traffic Management System</strong> is an intelligent system designed to manage and optimize traffic flow using real-time vehicle detection and adaptive signal control. This project leverages <strong>YOLOv8</strong> for vehicle detection and <strong>Arduino</strong> for controlling traffic lights.
     </p>
 
-<div class="features">
+  <div class="features">
       <h2>✨ Features</h2>
       <ul>
         <li>Real-time vehicle detection using YOLOv8.</li>
@@ -88,8 +88,7 @@
         <li>Easy-to-use Python script for detection and control.</li>
       </ul>
     </div>
-
-<div class="installation">
+    <div class="installation">
       <h2>🚀 Installation</h2>
       <ol>
         <li>Clone the repository:
@@ -105,7 +104,7 @@
       </ol>
     </div>
 
-<div class="usage">
+  <div class="usage">
       <h2>📋 Usage</h2>
       <p>To run the Traffic Management System:</p>
       <ol>
@@ -118,7 +117,7 @@
       </ol>
     </div>
 
-<div class="contributing">
+  <div class="contributing">
       <h2>🤝 Contributing</h2>
       <p>Contributions are welcome! If you'd like to contribute to this project, please follow these steps:</p>
       <ol>
@@ -129,12 +128,12 @@
       </ol>
     </div>
 
-<div class="license">
+  <div class="license">
       <h2>📜 License</h2>
       <p>This project is licensed under the <strong>MIT License</strong>. See the <a href="LICENSE">LICENSE</a> file for details.</p>
     </div>
 
-<div class="footer">
+  <div class="footer">
       <p>Made with ❤️ by <a href="https://github.com/pushkarsingh777">Pushkar Singh</a></p>
     </div>
   </div>
