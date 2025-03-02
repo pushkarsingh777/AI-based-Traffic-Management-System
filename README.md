@@ -19,9 +19,6 @@
 <ul>
     <li>🔹 Adaptive traffic light control</li>
     <li>🔹 Vehicle detection using OpenCV & YOLO</li>
-    <li>🔹 Real-time traffic data analysis</li>
-    <li>🔹 Web-based dashboard for monitoring</li>
-    <li>🔹 Power BI integration for visualization</li>
     <li>🔹 Arduino integration for physical traffic lights</li>
 </ul>
 
