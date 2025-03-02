@@ -37,15 +37,14 @@
   <li>Install dependencies:</li>
     <pre>pip install -r requirements.txt</pre>
 
-   <li>Run the main script:</li>
-    <pre>python main.py</pre>
+   <li>Run the yolo_model script:</li>
+    <pre>python yolo_detection.py</pre>
+
+  <li>Run the simulation:</li>
+    <pre>python traffic.py</pre>
 </ol>
 
-<h2>🚀 Usage</h2>
-<p>Start the system and monitor traffic conditions:</p>
-<pre>python traffic_control.py</pre>
-<p>Access the web dashboard at:</p>
-<pre>http://localhost:5000</pre>
+
 
 <h2>🤝 Contributing</h2>
 <p>We welcome contributions! Follow these steps:</p>
